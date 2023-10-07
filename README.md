@@ -27,3 +27,8 @@ conda env export > environment.yml
 ```
 pip install -e .
 ```
+
+## Add the environment as a kernel to Jupyter Notebook:
+```
+python -m ipykernel install --user --name=your-env
+```
