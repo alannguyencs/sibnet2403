@@ -1,7 +1,14 @@
 This template is customized from a book tittled **Good Research Code handbook**.
 
 ## Clone this repository
+```
 git clone https://github.com/alannguyencs/code_template.git
+```
+
+## Remove remote url
+```
+git remote rm origin
+```
 
 ## Rename the two folders code_template
 
