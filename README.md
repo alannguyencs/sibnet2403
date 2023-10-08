@@ -16,6 +16,7 @@ git remote rm origin
 ```
 conda create -n code_template_env python=3.8
 conda activate code_template_env
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 ```
 
 ## Enter the folders and open by visual studio
@@ -23,6 +24,7 @@ conda activate code_template_env
 cd code_template
 code .
 ```
+In Visual studio, press Ctrl + Shift + P to change the Conda environment interpreter
 
 ## Export conda environment
 ```
@@ -39,3 +41,7 @@ pip install -e .
 ```
 python -m ipykernel install --user --name=your-env
 ```
+
+## Frequent used commands
++ Check git size: `git count-objects -vH`
++ Export conda environment: `conda env export > environment.yml`
