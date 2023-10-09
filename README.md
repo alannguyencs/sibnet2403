@@ -11,9 +11,10 @@ conda create -n code_template_env python=3.8
 conda activate code_template_env
 ```
 
-## Enter the folders and open by visual studio
+## Enter the folders, remove the remote url and open by visual studio
 ```
 cd code_template
+git remote remove origin
 code .
 ```
 
