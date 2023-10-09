@@ -45,3 +45,6 @@ python -m ipykernel install --user --name=your-env
 ## Frequent used commands
 + Check git size: `git count-objects -vH`
 + Export conda environment: `conda env export > environment.yml`
++ Update conda environment from submodules: 
+	+ Go to submodule and install it: `pip install -e .`
+	+ `conda env update --name code_template_env -f environment.yml --prune`
